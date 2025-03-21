@@ -1,0 +1,53 @@
+/* Ensure row behaves as a flex container */
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    gap: 15px; 
+  }
+  
+  
+  .card {
+    flex: 1;
+    max-width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    background-color: white;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+  }
+
+  .card-text {
+    flex-grow: 1;
+    padding: 50px; 
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    align-items: center;
+  }
+  
+  

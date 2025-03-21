@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Bamboo Hills Residences</h2>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div *ngFor="let property of propertyInfo" class="col-md-3">
+        <div class="property-card">
+            <h4 class="property-type">{{ property.type }}</h4>
+          <div class="property-image">
+            <img class="imageset" [src]="property.imageUrl ? property.imageUrl : '/assets/images/custom/placeholder.jpg'" 
+                 alt="Property Image">
+          </div>
+          <div class="property-content">
+            
+            <h3 class="property-name">{{ property.name }}</h3>
+            <p class="property-description">{{ property.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

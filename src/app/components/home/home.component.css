@@ -1,0 +1,89 @@
+.container {
+    max-width: 100%px;
+    padding-top: 10px;
+  }
+  
+  .header-text-box {
+    background: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .text-left {
+    text-align: left;
+    color: white;
+  }
+  
+  .header-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .header-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .text-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .header-subtext {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .header-sub-text p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #f0f0f0;
+  }
+  
+  .center-text {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .btn-custom-primary {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+  .btn-custom-primary:hover {
+    background: #000000; 
+    color: white;
+    border: 2px solid white;
+  }
+  
+  @media (max-width: 768px) {
+  .header-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .text-header {
+    font-size: 2rem;
+  }
+
+  .header-sub-text p {
+    font-size: 1rem;
+  }
+
+  .btn-custom-primary {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

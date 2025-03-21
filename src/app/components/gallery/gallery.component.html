@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 text-center">
+            <div class="format-small-text text-dark">BAMBOO HILLS RESIDENCES GALLERY</div>
+            <div class="format-head-text text-dark">Bamboo Hills Residences Views</div>
+        </div>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery-wrapper" #galleryScroll>
+            <div class="gallery-item" *ngFor="let image of galleryImages">
+                <img [src]="image" alt="Gallery Image">
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-controls">
+        <button (click)="scrollGallery(-1)">‹</button>
+        <button (click)="scrollGallery(1)">›</button>
+    </div>
+</div>
