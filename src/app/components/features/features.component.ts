@@ -23,7 +23,7 @@ export class FeaturesComponent implements OnInit {
 
   ngOnInit() {
     this.http.get<any>('assets/general.json').subscribe(data => {
-      this.projectDetails = data.content.projectDetails.slice(0, 4); // Fetch only 4 items
+      this.projectDetails = data.content.projectDetails.slice(0, 4); 
     });
   }
 }

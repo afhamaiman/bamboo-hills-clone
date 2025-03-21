@@ -1,4 +1,4 @@
-/* Ensure row behaves as a flex container */
+
 .row {
     display: flex;
     flex-wrap: nowrap;

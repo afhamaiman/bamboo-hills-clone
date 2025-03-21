@@ -14,20 +14,20 @@
 
   .property-card {
     background-color: #f8f9fa;
-    padding: 30px; /* Reduce padding */
+    padding: 30px; 
     border-radius: 8px;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     padding-bottom: 50px;
-    width: 100%; /* Ensures all cards are the same width */
-    max-width: 300px; /* Set a max width */
-    height: 400px; /* Fix the height */
-    overflow: hidden; /* Prevents overflow */
+    width: 100%;
+    max-width: 300px;
+    height: 400px; 
+    overflow: hidden; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between; /* Ensures even spacing inside the card */
+    justify-content: space-between; 
 }
 
 .property-description {

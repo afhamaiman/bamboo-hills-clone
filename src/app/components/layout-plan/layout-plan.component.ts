@@ -16,7 +16,7 @@ export class LayoutPlanComponent implements OnInit {
 
   ngOnInit() {
     this.http.get<any>('assets/general.json').subscribe(data => {
-      this.layouts = data.content.layouts; // Fetch layout data
+      this.layouts = data.content.layouts;
     });
   }
 }
