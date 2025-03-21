@@ -32,4 +32,5 @@ import { FooterComponent } from '../footer/footer.component';
 })
 export class MainComponent {
   backgroundImage: string = "url('assets/images/home-bg.jpg')";
+  
 }
